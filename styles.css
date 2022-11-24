@@ -1,0 +1,137 @@
+body {
+	background-color: #EDEFEE;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	margin-left: auto; /* Set to auto to align webpage to center of screen */
+	margin-right: auto;
+	max-width: 70rem; /* Limiting max width for large and widescreen displays */
+}
+
+header > img { /* Logo image at the top */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav ul { /* Navbar unordered */
+	list-style: none;
+	text-align: center;
+	background-color: #495e57;
+	border-radius: 10px;
+	padding-inline-start: 0px; /* Removes left padding to be able to center the navbar properly */
+}
+
+nav li { /* Navbar ordered */
+	display: inline-block;
+	padding: 10px;
+	font-size: 1.5rem;
+	border-radius: 10px;
+}
+
+nav li:hover { /* Navbar on mouse hover */
+	background-color: #1f2926;
+}
+
+nav a {  /* Coloring blue hyperlinks */
+	color:white;
+}
+
+.container { /* Description container */
+	border-radius: 10px;
+	margin: 2px;
+	padding: 20px;
+	font-size: 1.3rem;
+	background-color: #f4ce14;
+	color: #495e57;
+}
+
+.flex-container { /* Description flexbox */
+	display: flex;
+	flex-wrap: wrap; /* This property stacks the containers on top of each other for mobile devices or smaller screens */
+	margin: 20px auto;
+	gap: 20px;
+	
+}
+
+article { /* Specific settings for article boxes */
+	background-color: #f4ce14;
+	border-radius: 10px;
+	padding: 20px;
+	color: #495e57;
+	list-style: none; /* Removing list style from all hyperlink on all articles */
+}
+
+article > img { /* Article images */
+	object-fit: contain;
+	margin-top: 10px;
+	width: 100%;
+	border-radius: 10px;
+}
+
+article a { /* Display settings for hyperlinks in all the articles */
+	background-color: #495e57b6;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+article a:hover {
+	background-color: #1f2926;
+}
+
+h1 {
+	font-size: 3rem;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	text-decoration: underline;
+	text-align: center;
+	color: #495e57;
+}
+
+h2 {
+	font-size: 3rem;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	text-decoration: underline;
+	text-align: center;
+}
+
+h3 {
+	font-size: 3rem;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	text-decoration: underline;
+	text-align: center;
+}
+
+th { /* Aligning opening hours on the right side to look neater */
+	text-align: right;
+}
+
+table { /* Centering of opening hours table inside the container */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+article {
+	flex: 1;
+	font-size: 1.1rem;
+}
+
+footer {
+	display: flex;
+}
+
+footer div {
+	flex: 1;
+}
+
+.footer_image {
+	height: 60px;
+	margin-left: 20px;
+}
+
+footer p {
+	text-align: right;
+	margin-right: 20px;
+}
